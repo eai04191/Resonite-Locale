@@ -437,7 +437,7 @@
         "Login.DuplicateAccount.Description": "サポートまでご連絡ください: {supportUrl}",
 
         "Login.UnknownError": "未知のエラーです",
-        "Login.UnknownError.Description": "ログイン中に未知なエラーが発生しました。 サポートまでご連絡ください support.resonite.com",
+        "Login.UnknownError.Description": "ログイン中に未知なエラーが発生しました。 サポートまでご連絡ください {supportUrl}",
 
         "Register.MissingRequest": "必要情報を入力してください",
         "Register.MissingRequest.Description": "登録情報が見つかりませんでした。 登録時には必ず必要事項を入力してください。",
@@ -596,7 +596,7 @@
         "Session.JoinVerifier.EnableHeader" : "カスタム参加検証を使用しますか？",
         "Session.JoinVerifier.EnableText" : "<color=red>警告:</color> カスタム参加検証を有効にしようとしています。 有効にする前に、ワールドの作成者が信頼できることを確認してください。 カスタム参加検証は標準のセッションのアクセスルールをバイパスし、独自のルールでユーザーの参加を許可またはブロックすることができるからです。",
         "Session.JoinVerifier.Label" : "カスタム参加検証を使用する: {name}",
-        "Session.JoinVerifier.ComponentWarning" : "<color=red>警告:</color> 現時点では、一度有効にした参加検証に対する改ざんを防ぐ仕組みはありません。​検証のためのProtoFluxの改ざんが懸念される場合は、​この機能を使用せず、​参加検証を有効にしないでください。",
+        "Session.JoinVerifierponentWarning" : "<color=red>警告:</color> 現時点では、一度有効にした参加検証に対する改ざんを防ぐ仕組みはありません。​検証のためのProtoFluxの改ざんが懸念される場合は、​この機能を使用せず、​参加検証を有効にしないでください。",
         "Session.JoinVerifier.SetCustomVerifier" : "カスタム参加検証として設定",
 
         "Permissions.NotAllowedToSpawn": "ここで物をスポーンすることはできません。",
@@ -796,9 +796,9 @@
 
         "Tooltip.RigTransfer.ClearSource" : "送信元をクリア",
 
-        "Tooltip.ComponentClone.SingleInstanceOn" : "シングルインスタンス: オン",
-        "Tooltip.ComponentClone.SingleInstanceOff" : "シングルインスタンス: オフ",
-        "Tooltip.ComponentClone.ClearTemplate" : "テンプレートをクリア",
+        "TooltipponentClone.SingleInstanceOn" : "シングルインスタンス: オン",
+        "TooltipponentClone.SingleInstanceOff" : "シングルインスタンス: オフ",
+        "TooltipponentClone.ClearTemplate" : "テンプレートをクリア",
 
         "ProtoFlux.UI.Call" : "Call",
         "ProtoFlux.UI.AsyncCall" : "<size=50%>Async</size> Call",
@@ -1285,7 +1285,7 @@
         "ComponentSelector.Back" : "< 戻る",
         "ComponentSelector.Title" : "コンポーネント",
         "ComponentSelector.CreateCustomType" : "Create Custom Type",
-        "ComponentSelector.CommonGenericTypes" : "Common Generic Types",
+        "ComponentSelectormonGenericTypes" : "Common Generic Types",
         "ComponentSelector.CustomGenericArguments" : "Custom Generic Arguments:",
         "ComponentSelector.InvalidType" : "その型は存在しません",
 
@@ -1358,7 +1358,7 @@
         "Inspector.MeshCollider.VHACD": "凸包に分解(V-HACD 2.0)",
         "Inspector.MeshCollider.ReplaceBox": "Box Collider に置き換える",
 
-        "Inspector.CommonAvatarBuilder.UpdateLocomotionModules": "ユーザーのロコモーションモジュールを更新",
+        "InspectormonAvatarBuilder.UpdateLocomotionModules": "ユーザーのロコモーションモジュールを更新",
 
         "Inspector.VHACD.Parameter.MergeDoubles": "重複を結合",
         "Inspector.VHACD.Parameter.Resolution": "解像度",
@@ -1396,7 +1396,7 @@
         "Inspector.SkinnedMesh.VisualizeBoneBounds": "ボーンのバウンディングボックスの可視化",
         "Inspector.SkinnedMesh.VisualizeApproximateBoneBounds": "マージされたボーンのスフィアバウンディングの可視化",
         "Inspector.SkinnedMesh.ClearBoundsVisuals": "可視化したボーンのバウンディングボックスを非表示",
-        "Inspector.SkinnedMesh.ComputeExplicitBoundsFromPose": "現在のポーズから明示的にバウンディングを計算する",
+        "Inspector.SkinnedMeshputeExplicitBoundsFromPose": "現在のポーズから明示的にバウンディングを計算する",
         "Inspector.SkinnedMesh.ExtendExplicitBoundsFromPose": "現在のポーズから明示的なバウンディングを拡張する",
         "Inspector.SkinnedMesh.BakeToStaticMesh": "スタティックメッシュにベイクする",
 
@@ -1519,7 +1519,7 @@
         "Inspector.CharacterController.Warning": "<color=red><size=150%>警告!</size></color><br>SimulateRotationにチェックをいれることで、​このコンポーネントを単純なRigidbodyとして使用できます。​前提として、この目的のために最適化されておらず、​適切なRigidbodyが将来提供されることを理解しておいてください。<br>適切なRigidbodyは以下を提供します：<br><b>- CPUとネットワーク負荷の軽減</b> - CharacterControllerを使用すると、 CPU使用率が高くなり、ネットワークトラフィックが大量に発生します。<br><b>- Constraints</b> - Rigidbody間にジョイント、ヒンジ、スプリング、 その他のconstraintを作成できるようになります。<br><b>- どのユーザーからもスムーズなシミュレーションと相互作用</b> - 他の人が操作すると、CharacterControllerはグリッチアウトします。<br><b>- 新機能とツール</b> - それらをはるかに簡単に使用できるようになります。<br>-----------------------<br>これらの制限を理解している限り、楽しんでください！",
         "Inspector.PrimitiveMemberEditor.Warning": "<color=red><size=150%>警告!</size></color>このコンポーネントを使用すると、IDを使用して参照を操作できます。​この手法は一般的に「Refハック」と呼ばれます。<br><br>これを実行する<b>前</b>に、​これはサポートされて<b>いない</b>ため、​いつか壊れる可能性があることを理解してください。​この機能に依存しないでください。",
 
-        "Inspector.ParticleStyle.CommonTransitions": "遷移テンプレート:",
+        "Inspector.ParticleStylemonTransitions": "遷移テンプレート:",
         "Inspector.ParticleStyle.AlphaFadeInOut": "アルファフェードイン＆フェードアウト",
         "Inspector.ParticleStyle.AlphaFadeIn": "アルファフェードイン",
         "Inspector.ParticleStyle.AlphaFadeOut": "アルファフェードアウト",
@@ -1660,7 +1660,7 @@
         "Tutorial.Welcome.StartTutorialDescription": "セットアップ完了！​準備は整いました！​これからチュートリアルワールドに移動します。​最後に{appName}を探索するための拠点となる、新しいホームワールドがあなたを待っています。​準備ができたら​下のボタンをクリックしてください。",
         "Tutorial.Welcome.StartTutorial": "チュートリアル開始",
 
-        "Tutorial.CommunityYouTube.Title": "コミュニティYouTubeチャンネル",
+        "TutorialmunityYouTube.Title": "コミュニティYouTubeチャンネル",
 
         "Tutorial.UserResources.UserResourcesTitle": "ユーザー向け資料",
         "Tutorial.UserResources.SupportTitle": "{appName}をサポート",
@@ -1678,8 +1678,8 @@
 
         "Object.Mirror.Toggle": "on/off​(ローカル)",
 
-        "Twitch.Panel.Button.Commands.Enabled": "コマンド有効",
-        "Twitch.Panel.Button.Commands.Disabled": "コマンド無効",
+        "Twitch.Panel.Buttonmands.Enabled": "コマンド有効",
+        "Twitch.Panel.Buttonmands.Disabled": "コマンド無効",
         "Twitch.Panel.Button.SafeMode.Enabled": "セーフモード有効",
         "Twitch.Panel.Button.SafeMode.Disabled": "セーフモード無効",
         "Twitch.Panel.Button.SubscriberCommands.Enabled": "サブスクライバーコマンド<br>サブスクライバーのみ有効",
@@ -1760,7 +1760,7 @@
         "Migration.Report.Status": "<color={hex}>ステータス:</color> {value}",
         "Migration.Report.CreatedOn": "<color={hex}>作成日時:</color> {value}",
         "Migration.Report.StartedOn": "<color={hex}>開始日時:</color> {value}",
-        "Migration.Report.CompletedOn": "<color={hex}>完了日時:</color> {value}",
+        "Migration.ReportpletedOn": "<color={hex}>完了日時:</color> {value}",
 
         "Migration.Report.CurrentlyMigrating": "現在<color={hex}>{value}</color>個のデータを移行中",
         "Migration.Report.CurrentItem": "現在のアイテム: <color={hex}>{value}</color>",
@@ -2036,13 +2036,13 @@
 
         "Tools.Names.MultiTool": "マルチツール",
 
-        "Tools.Names.CommonTools": "一般ツール",
+        "Tools.NamesmonTools": "一般ツール",
         "Tools.Names.ManipulationTools": "マニピュレーションツール",
         "Tools.Names.InformationTools": "インフォメーションツール",
 
         "Tools.Names.GeometryLineBrush": "Geometry Line Brush ツール",
         "Tools.Names.Developer": "Developer ツール",
-        "Tools.Names.ComponentClone": "Component Clone ツール",
+        "Tools.NamesponentClone": "Component Clone ツール",
         "Tools.Names.ProtoFlux": "ProtoFlux ツール",
         "Tools.Names.Material": "Material ツール",
         "Tools.Names.Glue": "Glue ツール",
